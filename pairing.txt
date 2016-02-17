@@ -1,0 +1,40 @@
+  481  cd de
+  482  de
+  483  ls
+  484  take git_two
+  485  git init
+  486  echo this is a git test > gittest.txt
+  487  ls
+  488  git remote add origin git@github.com:geo52dev/gitty_test.git
+  489  ls
+  490  git add -A
+  491  git status
+  492  git push -u origin master
+  493  git remote add origin git@github.com:geo52dev/gitty_test.git
+  494  git push 
+  495  git push -u origin master
+  496  pwd
+  497  ls
+  498  git status
+  499  git commit -m "this is another test"
+  500  git push -u origin master
+  501  which gp
+  502  git clone git@github.com:geo52dev/learn_forking.git
+  503  ls
+  504  cd learn_forking
+  505  echo George is here > george.txt
+  506  git add -A
+  507  git commit -m "This my contribution to computer science."
+  508  git push origin master
+  509  echo this is an update to Sara >> sara.txt
+  510  ls
+  511  git add sara.txt
+  512  git commit -m "this is an update to sara"
+  513  git push origin master
+  514  git clone git@github.com:geo52dev/coffee.git
+  515  ls
+  516  cd coffee
+  517  echo this is an update >> sara.txt
+  518  git add sara.txt
+  519  git commit -m "this is an update to sara"
+  520  git push origin master
